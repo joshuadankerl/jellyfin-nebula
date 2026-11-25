@@ -104,8 +104,8 @@
             '<div class="nbHero-genres">' + gen + '</div>' +
             (c.overview ? '<p class="nbHero-overview">' + esc(i.Overview) + '</p>' : '') +
             (!c.buttons ? '' : '<div class="nbHero-actions">' +
-              '<a class="nbHero-btn nbHero-btn--main" data-play="' + i.Id + '" href="' + url + '"><span class="material-icons">play_arrow</span>Ver ahora</a>' +
-              '<a class="nbHero-btn" href="' + url + '"><span class="material-icons">info_outline</span>Más info</a>' +
+              '<a class="nbHero-btn nbHero-btn--main" data-play="' + i.Id + '" href="' + url + '"><span class="material-icons">play_arrow</span>Play</a>' +
+              '<a class="nbHero-btn" href="' + url + '"><span class="material-icons">info_outline</span>More info</a>' +
             '</div>') +
           '</div></article>';
       }).join('') + '</div>' +
