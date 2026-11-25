@@ -20,7 +20,7 @@
 set -u
 ARG="${1:-${JELLYFIN_CONTAINER:-${EMBY_CONTAINER:-auto}}}"; MODO="${2:-}"
 case "$ARG" in --*) MODO="$ARG"; ARG="${JELLYFIN_CONTAINER:-${EMBY_CONTAINER:-auto}}" ;; esac
-CDN="https://cdn.jsdelivr.net/gh/nemesbak/jellyfin-nebula@main"
+CDN="https://cdn.jsdelivr.net/gh/nemesbak/jellyfin-nebula@8409303caa0425ec99a55ac2e48d71044f6e4d34"
 REPO="https://raw.githubusercontent.com/nemesbak/jellyfin-nebula/main"
 DIR="${NEBULA_DIR:-$HOME/.nebula-jellyfin}"
 WEBS="/jellyfin/jellyfin-web /usr/share/jellyfin/web /usr/lib/jellyfin/bin/jellyfin-web /app/emby/system/dashboard-ui /app/emby/dashboard-ui /opt/emby-server/system/dashboard-ui /system/dashboard-ui /usr/lib/emby-server/system/dashboard-ui /var/lib/emby/dashboard-ui"
